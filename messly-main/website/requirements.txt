@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+passlib[bcrypt]
+requests
+psycopg2-binary
+gunicorn  # Если нужно для продакшена
+websockets
+python-jose==3.3.0
+python-multipart
+bcrypt==4.3.0  # Фикс ошибки
